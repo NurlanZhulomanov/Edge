@@ -451,7 +451,7 @@ function updatePreview() {
         ctx.drawImage(img, 0, 0);
         
         // Draw edges as red vertical lines
-        ctx.strokeStyle = 'red';
+        ctx.strokeStyle = 'lightgreen';
         ctx.lineWidth = 2;
         
         const validEdges = [];
@@ -513,4 +513,5 @@ function nextImage() {
         document.getElementById('previewSlider').value = currentPreviewIndex;
         updatePreview();
     }
+
 }
